@@ -1,0 +1,34 @@
+[初始化信息] 模型: glm-4.7
+[提示词] Check weather in Beijing and Shanghai
+[工具数量] 2
+------------------------------------------------------------
+
+[Chunk #1]
+  Content: 'I'
+
+[Chunk #2]
+  Content: "'ll"
+
+[Chunk #3]
+  Content: ' check'
+
+[Chunk #4]
+  Content: ' both'
+
+[Chunk #5]
+  Content: ' cities'
+
+[Chunk #6]
+  Content: '.'
+
+[Chunk #7]
+  Raw Text: '<tool_call>get_weather
+<arg_key>city</arg_key>
+<arg_value>Beijing</arg_value>
+</tool_call>'
+
+[Chunk #8]
+  Raw Text: '<tool_call>get_weather
+<arg_key>city</arg_key>
+<arg_value>Shanghai</arg_value>
+</tool_call>'

@@ -1,0 +1,55 @@
+[初始化信息] 模型: glm-4.7
+[提示词] Get weather for multiple cities
+[工具数量] 1
+------------------------------------------------------------
+
+[Chunk #1]
+  Content: 'Let'
+
+[Chunk #2]
+  Content: ' me'
+
+[Chunk #3]
+  Content: ' check'
+
+[Chunk #4]
+  Content: '.'
+
+[Chunk #5]
+  Raw Text: '<tool_call>'
+
+[Chunk #6]
+  Raw Text: 'get_weather'
+
+[Chunk #7]
+  Raw Text: '
+'
+
+[Chunk #8]
+  Raw Text: '<arg_key>'
+
+[Chunk #9]
+  Raw Text: 'city'
+
+[Chunk #10]
+  Raw Text: '</arg_key>'
+
+[Chunk #11]
+  Raw Text: '
+'
+
+[Chunk #12]
+  Raw Text: '<arg_value>'
+
+[Chunk #13]
+  Raw Text: 'Beijing'
+
+[Chunk #14]
+  Raw Text: '</arg_value>'
+
+[Chunk #15]
+  Raw Text: '
+'
+
+[Chunk #16]
+  Raw Text: '</tool_call>'

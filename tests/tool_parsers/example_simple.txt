@@ -1,0 +1,34 @@
+[初始化信息] 模型: glm-4.7
+[提示词] What is the weather in Beijing?
+[工具数量] 1
+------------------------------------------------------------
+
+[Chunk #1]
+  Content: 'I'
+
+[Chunk #2]
+  Content: "'ll"
+
+[Chunk #3]
+  Content: ' check'
+
+[Chunk #4]
+  Content: ' the'
+
+[Chunk #5]
+  Content: ' weather'
+
+[Chunk #6]
+  Content: ' for'
+
+[Chunk #7]
+  Content: ' you'
+
+[Chunk #8]
+  Content: '.'
+
+[Chunk #9]
+  Raw Text: '<tool_call>get_weather
+<arg_key>city</arg_key>
+<arg_value>Beijing</arg_value>
+</tool_call>'

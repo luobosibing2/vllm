@@ -1,0 +1,62 @@
+[初始化信息] 模型: glm-4.7
+[提示词] Write a Python function
+[工具数量] 1
+------------------------------------------------------------
+
+[Chunk #1]
+  Content: 'Let'
+
+[Chunk #2]
+  Content: ' me'
+
+[Chunk #3]
+  Content: ' write'
+
+[Chunk #4]
+  Content: ' that'
+
+[Chunk #5]
+  Content: ' for'
+
+[Chunk #6]
+  Content: ' you'
+
+[Chunk #7]
+  Content: '.'
+
+[Chunk #8]
+  Raw Text: '<tool_call>write_file
+<arg_key>filename</arg_key>
+<arg_value>hello.py</arg_value>
+<arg_key>content</arg_key>
+<arg_value>'
+
+[Chunk #9]
+  Raw Text: 'def hello():'
+
+[Chunk #10]
+  Raw Text: '
+    print("'
+
+[Chunk #11]
+  Raw Text: 'Hello'
+
+[Chunk #12]
+  Raw Text: ', '
+
+[Chunk #13]
+  Raw Text: 'World'
+
+[Chunk #14]
+  Raw Text: '!")'
+
+[Chunk #15]
+  Raw Text: '
+    return'
+
+[Chunk #16]
+  Raw Text: ' True'
+
+[Chunk #17]
+  Raw Text: '</arg_value>
+</tool_call>'
